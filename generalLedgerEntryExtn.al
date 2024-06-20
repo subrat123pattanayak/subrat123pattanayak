@@ -8,7 +8,7 @@ using Microsoft.Sales.Customer;
 using Microsoft.Finance.GeneralLedger.Ledger;
 using System.Utilities;
 
-pageextension 50100 CustomerListExt extends "Customer List"
+pageextension 50100 generalLedgerEntryExtn extends "General Ledger Entries"
 {
     trigger OnOpenPage();
     var
