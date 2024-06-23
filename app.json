@@ -1,33 +1,39 @@
 {
-  "id": "2a12ac7c-69ca-44dc-a8f2-260ea0826ba7",
-  "name": "BC24",
-  "publisher": "Subrat",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [
-  {
-    id:"5ecfc871-5d82-43f1-9c54-59685e82318d",
-    publisher:"LS Retail",
-    name:"LS Central",
-    version:"24.1.0.306"
-  }
-  ],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "24.0.0.0",
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "13.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "id": "2a12ac7c-69ca-44dc-a8f2-260ea0826ba7",
+    "name": "BC24",
+    "publisher": "Subrat",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+            "publisher": "LS Retail",
+            "name": "LS Central",
+            "version": "24.1.0.306"
+        },
+        {
+            "id": "7A129D06-5FD6-4FB6-B82B-0BF539C779D0",
+            "name": "_Exclude_Bank Deposits",
+            "publisher": "Microsoft",
+            "version": "24.2.20227.20424"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "24.0.0.0",
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "13.0",
+    "features": [
+        "NoImplicitWith"
+    ]
 }
