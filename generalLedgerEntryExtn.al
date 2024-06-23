@@ -12,7 +12,7 @@ pageextension 50100 generalLedgerEntryExtn extends "General Ledger Entries"
 {
     trigger OnOpenPage();
     var
-        Query_Cust: Query "G/L Entries";
+        Query_glEntry: Query "G/L Entries";
         OutStrem: OutStream;
         InStrem: InStream;
         Separator: Text[1];
@@ -28,7 +28,7 @@ pageextension 50100 generalLedgerEntryExtn extends "General Ledger Entries"
     begin
         Separator := ';';
         TempBlob.CreateOutStream(OutStrem);
-        Query_Cust.SaveAsCsv(OutStrem, 1, Separator);
+        Query_glEntry.SaveAsCsv(OutStrem, 1, Separator);
         TempBlob.CreateInStream(InStrem);
         InStrem.ReadText(CsvData);
         ColumnNames := CsvData.Split(Separator);
